@@ -33,7 +33,6 @@ def preprocess_text(text: str) -> str:
     tokens = [token for token in tokens if token not in STOP_WORDS]
 
     return ' '.join(tokens)
-    return ' '.join(word for word in text.split() if word not in stop_words)
 
 class QueryResponse(BaseModel):
     cid: str
