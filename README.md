@@ -64,12 +64,12 @@ Por exemplo, uma query para buscar posts sobre "elon musk" retorna:
 ## Exemplos de query:
 
 ### Query que retorna 10 resultados
-https://insper-nlp-relevance-search.fly.dev/query?query_text=elon%20musk
+https://insper-nlp-relevance-search.fly.dev/query?q=elon%20musk
 
 "Elon Musk" é um tópico em alta no momento devido às polêmicas e bloqueio do X.
 
 ### Query que não retorna resultados
-https://insper-nlp-relevance-search.fly.dev/query?query_text=insper
+https://insper-nlp-relevance-search.fly.dev/query?q=insper
 
 Durante o tempo de download do dataset, nenhum post sobre o Insper foi feito.
 
